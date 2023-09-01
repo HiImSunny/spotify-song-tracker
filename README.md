@@ -5,8 +5,9 @@ Get song name, artist name and album cover for the currently playing song
 * Step 1: Create [Spotify Dev App](https://developer.spotify.com/dashboard) ([Instruction](https://developer.spotify.com/documentation/web-api))
 * Step 2: Clone the project (git clone https://github.com/HiImSunny/spotify-song-tracker)
 * Step 3: Edit **app.secret_key**, **CLIENT_ID** and **CLIENT_SECRET** in **main.py**
-* Step 4: Run main.py
-* Step 5: Open your browser then go to http://localhost:3000/login and authenticate with spotify
+* Step 4 (Optional): Download [Flask](https://flask.palletsprojects.com/en/2.3.x/) (pip install Flask)
+* Step 5: Run main.py
+* Step 6: Open your browser then go to http://localhost:3000/login and authenticate with spotify
 
 After complete all the step, the website should be showing what you're currently playing on spotify
 Also, the **song.txt** and **cover_image.jpg** files should be created in the same folder with main.py
