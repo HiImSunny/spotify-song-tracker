@@ -12,8 +12,8 @@ app.secret_key = os.environ['SESSION_SECRET']
 AUTH_URL = 'https://accounts.spotify.com/authorize'
 TOKEN_URL = 'https://accounts.spotify.com/api/token'
 REDIRECT_URI = 'http://localhost:3000/callback'
-CLIENT_ID = os.environ['CLIENT_ID']
-CLIENT_SECRET = os.environ['CLIENT_SECRET']
+CLIENT_ID = os.environ['SPOTIFY_CLIENT_ID']
+CLIENT_SECRET = os.environ['SPOTIFY_CLIENT_SECRET']
 SCOPE = [
     "user-read-currently-playing"
 ]
